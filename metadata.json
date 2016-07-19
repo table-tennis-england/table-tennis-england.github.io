@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://table-tennis-england.github.io/",
+  "dataset-site-url": "http://data.pingengland.co.uk/",
   "title": "Ping! Table Locations",
   "description": "Table Tennis table locations data from www.pingengland.co.uk",
   "publisher-name": "Table Tennis England",
@@ -13,7 +13,9 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Table Tennis England",
-  "attribution-url": "https://table-tennis-england.github.io/",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
-  "copyright-notice": ""
+  "attribution-url": "http://data.pingengland.co.uk/",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9edd7a22fdf4a0e2f0c8938c9\",\"lid\":\"89f767e781\"}) })",
+  "copyright-notice": "",
+  "odi-certificate-number": "",
+  "publish": true
 }
