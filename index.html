@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Ping! Table Locations",
-      "id": "http://data.pingengland.co.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.pingengland.co.uk/",
       "url": "http://data.pingengland.co.uk/",
-      "description" : "Outdoor Ping! table tennis table locations data from www.pingengland.co.uk; published using OpenActive RPDE v0.2.3.",
+      "name": "Ping! Table Locations",
+      "description": "Outdoor Ping! table tennis table locations data from www.pingengland.co.uk; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Table Tennis",
-         "Ping",
-         "OpenActive"
+          "Table Tennis",
+          "Ping",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "http://www.pingengland.co.uk/realtime.php"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "http://www.pingengland.co.uk/realtime.php"
+        }
+      ],
+      "discussionUrl": "https://github.com/table-tennis-england/opendata/issues",
+      "documentation": "https://github.com/table-tennis-england/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Table Tennis England",
-         "url": "http://tabletennisengland.co.uk/",
-         "logo": "http://data.pingengland.co.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "Table Tennis England",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.pingengland.co.uk/images/logo.png"
+        },
+        "url": "http://tabletennisengland.co.uk/"
       },
-      "datePublished" : "2016-07-11T00:00:00.000Z"
+      "datePublished": "2016-07-11T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.pingengland.co.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
